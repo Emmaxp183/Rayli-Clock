@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAC3D81328F3FC80005682A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC3D81228F3FC80005682A0 /* AppDelegate.swift */; };
+		FAC3D81528F3FC80005682A0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC3D81428F3FC80005682A0 /* SceneDelegate.swift */; };
+		FAC3D81728F3FC80005682A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC3D81628F3FC80005682A0 /* ViewController.swift */; };
+		FAC3D81A28F3FC80005682A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAC3D81828F3FC80005682A0 /* Main.storyboard */; };
+		FAC3D81C28F3FC81005682A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAC3D81B28F3FC81005682A0 /* Assets.xcassets */; };
+		FAC3D81F28F3FC81005682A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAC3D81D28F3FC81005682A0 /* LaunchScreen.storyboard */; };
+		FAC3D82728F3FCD6005682A0 /* New Walt Disney.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAC3D82628F3FCD6005682A0 /* New Walt Disney.ttf */; };
+		FAC3D82928F3FCE4005682A0 /* DigitalNumbers-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAC3D82828F3FCE4005682A0 /* DigitalNumbers-Regular.ttf */; };
+		FAC3D82B28F3FCEE005682A0 /* Orbitron-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAC3D82A28F3FCEE005682A0 /* Orbitron-VariableFont_wght.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FAC3D80F28F3FC80005682A0 /* Rayli Clock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rayli Clock.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAC3D81228F3FC80005682A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAC3D81428F3FC80005682A0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FAC3D81628F3FC80005682A0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FAC3D81928F3FC80005682A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAC3D81B28F3FC81005682A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAC3D81E28F3FC81005682A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAC3D82028F3FC81005682A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAC3D82628F3FCD6005682A0 /* New Walt Disney.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "New Walt Disney.ttf"; sourceTree = "<group>"; };
+		FAC3D82828F3FCE4005682A0 /* DigitalNumbers-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DigitalNumbers-Regular.ttf"; sourceTree = "<group>"; };
+		FAC3D82A28F3FCEE005682A0 /* Orbitron-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Orbitron-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAC3D80C28F3FC7F005682A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAC3D80628F3FC7F005682A0 = {
+			isa = PBXGroup;
+			children = (
+				FAC3D81128F3FC80005682A0 /* Rayli Clock */,
+				FAC3D81028F3FC80005682A0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAC3D81028F3FC80005682A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAC3D80F28F3FC80005682A0 /* Rayli Clock.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAC3D81128F3FC80005682A0 /* Rayli Clock */ = {
+			isa = PBXGroup;
+			children = (
+				FAC3D83028F3FE64005682A0 /* Files */,
+				FAC3D82F28F3FE24005682A0 /* Controller */,
+				FAC3D82E28F3FE16005682A0 /* View */,
+				FAC3D82D28F3FDFD005682A0 /* Model */,
+				FAC3D81B28F3FC81005682A0 /* Assets.xcassets */,
+				FAC3D82028F3FC81005682A0 /* Info.plist */,
+			);
+			path = "Rayli Clock";
+			sourceTree = "<group>";
+		};
+		FAC3D82C28F3FD60005682A0 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				FAC3D82828F3FCE4005682A0 /* DigitalNumbers-Regular.ttf */,
+				FAC3D82A28F3FCEE005682A0 /* Orbitron-VariableFont_wght.ttf */,
+				FAC3D82628F3FCD6005682A0 /* New Walt Disney.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		FAC3D82D28F3FDFD005682A0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FAC3D82E28F3FE16005682A0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FAC3D81628F3FC80005682A0 /* ViewController.swift */,
+				FAC3D81828F3FC80005682A0 /* Main.storyboard */,
+				FAC3D81D28F3FC81005682A0 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FAC3D82F28F3FE24005682A0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FAC3D83028F3FE64005682A0 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAC3D81428F3FC80005682A0 /* SceneDelegate.swift */,
+				FAC3D81228F3FC80005682A0 /* AppDelegate.swift */,
+				FAC3D82C28F3FD60005682A0 /* Fonts */,
+			);
+			path = Files;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAC3D80E28F3FC7F005682A0 /* Rayli Clock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAC3D82328F3FC81005682A0 /* Build configuration list for PBXNativeTarget "Rayli Clock" */;
+			buildPhases = (
+				FAC3D80B28F3FC7F005682A0 /* Sources */,
+				FAC3D80C28F3FC7F005682A0 /* Frameworks */,
+				FAC3D80D28F3FC7F005682A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Rayli Clock";
+			productName = "Rayli Clock";
+			productReference = FAC3D80F28F3FC80005682A0 /* Rayli Clock.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAC3D80728F3FC7F005682A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					FAC3D80E28F3FC7F005682A0 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = FAC3D80A28F3FC7F005682A0 /* Build configuration list for PBXProject "Rayli Clock" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAC3D80628F3FC7F005682A0;
+			productRefGroup = FAC3D81028F3FC80005682A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAC3D80E28F3FC7F005682A0 /* Rayli Clock */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAC3D80D28F3FC7F005682A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC3D81F28F3FC81005682A0 /* LaunchScreen.storyboard in Resources */,
+				FAC3D82728F3FCD6005682A0 /* New Walt Disney.ttf in Resources */,
+				FAC3D82B28F3FCEE005682A0 /* Orbitron-VariableFont_wght.ttf in Resources */,
+				FAC3D81C28F3FC81005682A0 /* Assets.xcassets in Resources */,
+				FAC3D82928F3FCE4005682A0 /* DigitalNumbers-Regular.ttf in Resources */,
+				FAC3D81A28F3FC80005682A0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAC3D80B28F3FC7F005682A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC3D81728F3FC80005682A0 /* ViewController.swift in Sources */,
+				FAC3D81328F3FC80005682A0 /* AppDelegate.swift in Sources */,
+				FAC3D81528F3FC80005682A0 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FAC3D81828F3FC80005682A0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAC3D81928F3FC80005682A0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAC3D81D28F3FC81005682A0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAC3D81E28F3FC81005682A0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAC3D82128F3FC81005682A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAC3D82228F3FC81005682A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAC3D82428F3FC81005682A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W35P6LHCZU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Rayli Clock/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.immaxp.Rayli-Clock";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAC3D82528F3FC81005682A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W35P6LHCZU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Rayli Clock/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.immaxp.Rayli-Clock";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAC3D80A28F3FC7F005682A0 /* Build configuration list for PBXProject "Rayli Clock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAC3D82128F3FC81005682A0 /* Debug */,
+				FAC3D82228F3FC81005682A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAC3D82328F3FC81005682A0 /* Build configuration list for PBXNativeTarget "Rayli Clock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAC3D82428F3FC81005682A0 /* Debug */,
+				FAC3D82528F3FC81005682A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAC3D80728F3FC7F005682A0 /* Project object */;
+}
