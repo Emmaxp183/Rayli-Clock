@@ -30,9 +30,9 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G6r-0p-6H9">
+                            <button opaque="NO" alpha="0.40000000000000002" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G6r-0p-6H9">
                                 <rect key="frame" x="26" y="729" width="338" height="61"/>
-                                <color key="backgroundColor" red="0.4941176471" green="0.4941176471" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="61" id="0d2-Uf-aSS"/>
                                 </constraints>
@@ -41,6 +41,9 @@
                                     <fontDescription key="titleFontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="20"/>
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="showSettingsButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yCk-oj-M2y"/>
+                                </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="u48-UY-eiI">
                                 <rect key="frame" x="26" y="461" width="338" height="248"/>
@@ -60,8 +63,11 @@
                                                     <segment title="First"/>
                                                     <segment title="Second"/>
                                                     <segment title="Third"/>
-                                                    <segment title="Fouth"/>
+                                                    <segment title="Fourth"/>
                                                 </segments>
+                                                <connections>
+                                                    <action selector="backgroundImageSeg:" destination="BYZ-38-t0r" eventType="valueChanged" id="SHr-CI-NLR"/>
+                                                </connections>
                                             </segmentedControl>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Change clock Font" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0lv-Rv-7Dc">
                                                 <rect key="frame" x="0.0" y="112.33333333333331" width="283" height="23.333333333333343"/>
@@ -77,6 +83,9 @@
                                                     <segment title="Orbitron"/>
                                                     <segment title="Avinir"/>
                                                 </segments>
+                                                <connections>
+                                                    <action selector="clockFontSeg:" destination="BYZ-38-t0r" eventType="valueChanged" id="uzf-DF-2wk"/>
+                                                </connections>
                                             </segmentedControl>
                                         </subviews>
                                     </stackView>
@@ -109,7 +118,11 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="changeBackgroundSeg" destination="MHR-Ay-meI" id="v31-vS-07f"/>
+                        <outlet property="changeFontSeg" destination="Egd-xt-8jJ" id="yX9-ov-74V"/>
                         <outlet property="clockLabel" destination="kM0-Fc-FnJ" id="ijR-w0-Nht"/>
+                        <outlet property="settingsButton" destination="G6r-0p-6H9" id="DXc-PE-Q2c"/>
+                        <outlet property="settingsView" destination="u48-UY-eiI" id="1IH-cl-lhy"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
