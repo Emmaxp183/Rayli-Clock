@@ -53,8 +53,8 @@
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Change background" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kEx-aZ-6Hf">
                                                 <rect key="frame" x="0.0" y="0.0" width="283" height="23.333333333333332"/>
-                                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
-                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="17"/>
+                                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="MHR-Ay-meI">
@@ -71,17 +71,17 @@
                                             </segmentedControl>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Change clock Font" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0lv-Rv-7Dc">
                                                 <rect key="frame" x="0.0" y="112.33333333333331" width="283" height="23.333333333333343"/>
-                                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
-                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="17"/>
+                                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Egd-xt-8jJ">
                                                 <rect key="frame" x="0.0" y="164.66666666666669" width="283" height="32"/>
                                                 <segments>
-                                                    <segment title="Disney"/>
                                                     <segment title="Digital"/>
+                                                    <segment title="Disney"/>
                                                     <segment title="Orbitron"/>
-                                                    <segment title="Avinir"/>
+                                                    <segment title="Avenir"/>
                                                 </segments>
                                                 <connections>
                                                     <action selector="clockFontSeg:" destination="BYZ-38-t0r" eventType="valueChanged" id="uzf-DF-2wk"/>
@@ -118,6 +118,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="backgroundImage" destination="VoC-Sp-JnI" id="XAn-xx-nhn"/>
                         <outlet property="changeBackgroundSeg" destination="MHR-Ay-meI" id="v31-vS-07f"/>
                         <outlet property="changeFontSeg" destination="Egd-xt-8jJ" id="yX9-ov-74V"/>
                         <outlet property="clockLabel" destination="kM0-Fc-FnJ" id="ijR-w0-Nht"/>
